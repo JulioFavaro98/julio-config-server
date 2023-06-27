@@ -1,8 +1,6 @@
-server:
-  port: 8888
 spring:
   application:
-    name: julio-config-server
-  profiles:
-    active:
-    - native
+    name: greeting-service
+greeting-service:
+  greeting: "Olá"
+  default-value: "Mundo!"
